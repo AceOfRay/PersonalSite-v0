@@ -8,13 +8,35 @@
   <body>
     <nav id="nav">This serves as the Navbar</nav>
     <main id="main">
-      <section>
-        <h1>This is the contact Page!</h1>
-      </section>
-      <section><h1>this demonstrates a h1-tag :D</p></section>
-      <section><p>this demonstrates another p-tag :D</p></section>
-      <section></section>
-      <section></section>
+      <h1 class="contactHeader">Contact Me!</h1>
+      <form action="" id="contactForm">
+        <li>
+          <input
+            type="text"
+            name="name"
+            id="nameInput"
+            placeholder="Your Name"
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            name="email"
+            id="emailInput"
+            placeholder="Your Email"
+          />
+        </li>
+        <li>
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            id="messageInput"
+            placeholder="Your Message"
+          ></textarea>
+        </li>
+        <li><input type="submit" />Send Message!</li>
+      </form>
     </main>
     <footer id="foot">© 2023 Ray's Website | All Rights Reserved</footer>
   </body>
