@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StarterPackWebsite</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav id="nav">This serves as the Navbar</nav>
-    <main id="main">
+    <nav id="nav">
       <h1 class="contactHeader">Contact Me!</h1>
+      <div class="navLinks">
+        <a href="index.html">Home Page</a>
+        <a href="portfolio.html">My portfolio</a>
+        <a href="resume.html">My resume</a>
+        <a href="blog.html">My Blog</a>
+      </div>
+    </nav>
+
+    <main id="main">
       <form action="" id="contactForm">
         <li>
           <input
@@ -27,15 +42,13 @@
           />
         </li>
         <li>
-          <textarea
+          <input
             name="message"
-            cols="30"
-            rows="10"
             id="messageInput"
             placeholder="Your Message"
-          ></textarea>
+          >
         </li>
-        <li><input type="submit" />Send Message!</li>
+        <li><button id="submit">Submit</button></li>
       </form>
     </main>
     <footer id="foot">© 2023 Ray's Website | All Rights Reserved</footer>
