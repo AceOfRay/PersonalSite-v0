@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color:white;
     font-size:2vw;
+    font-family:Roboto Slab;
 }
 
 #nav {
@@ -46,16 +47,13 @@ p, #foot {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin:4vw;
 }
 #profPic {
     margin:1.5vw;
     border-radius: 1vw;
 }
-#foot {
-    margin-top:18%;
-    display: flex;
-    justify-content: center;
-}
+
 a {
     text-decoration: none;
     cursor:pointer;
@@ -66,4 +64,10 @@ a {
 .about-image {
     background-color: rgb(11, 37, 109);
     border-radius: 1.5vw;
+}
+
+#foot {
+    position: fixed;
+    bottom:0;
+    margin:1vh 40%;
 }
