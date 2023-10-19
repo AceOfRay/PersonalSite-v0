@@ -10,7 +10,20 @@ var myList = [
         date: "October 18th, 2023",
         description: "At least my lovely GF is here with me.",
         slug: "blog.html"
-    }
+    },
+    {
+        title: "The Weather",
+        date: "October 18th, 2023",
+        description: "I want to do cute fall things with my girlfriend, but the weather has not been allowing."
+        + " It's supposed to be fall! #sadGirlAutumn #AllToBaddd",
+        slug: "blog.html"
+    },
+    {
+        title: "The last silly thing I have posted",
+        date: "October 18th, 2023",
+        description: "My girlfriend is a swiftie, she made me say what I said before",
+        slug: "blog.html"
+    },
 ];
 function addBlogToDOM(blogList) {
     var container = document.getElementById('postContainer');

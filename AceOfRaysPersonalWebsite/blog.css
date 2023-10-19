@@ -56,6 +56,7 @@ a {
 
 #postContainer > * {
     width: 70vw;
+    margin: 2vh 0vw;
 }
 
 #title {
