@@ -49,9 +49,15 @@ a {
 }
 #postContainer {
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+#postContainer > * {
+    width: 70vw;
+}
+
 #title {
     display:flex;
     justify-content: space-between;
