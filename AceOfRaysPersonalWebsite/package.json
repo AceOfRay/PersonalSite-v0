@@ -1,0 +1,15 @@
+{
+  "name": "aceofrayspersonalwebsite",
+  "version": "1.0.0",
+  "description": "Starting Milestone 1",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
